@@ -6,3 +6,17 @@
 */
 /* Common styles */
 @import url('./reset.css');
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 1128px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
+  height: auto;
+}
